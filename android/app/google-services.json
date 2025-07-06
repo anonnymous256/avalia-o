@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1002004893158",
+    "project_id": "avaliacao-fibra",
+    "storage_bucket": "avaliacao-fibra.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002004893158:android:7f08b42388095b720b9a27",
+        "android_client_info": {
+          "package_name": "com.example.gasolina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_u4Hg_p3Xe3PWX8H3F8nyrA-WWJUCeM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

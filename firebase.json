@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "avaliacao-fibra",
+          "appId": "1:1002004893158:android:7f08b42388095b720b9a27",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "avaliacao-fibra",
+          "configurations": {
+            "android": "1:1002004893158:android:7f08b42388095b720b9a27",
+            "ios": "1:1002004893158:ios:b4ef70f74206cfcc0b9a27",
+            "macos": "1:1002004893158:ios:b4ef70f74206cfcc0b9a27",
+            "web": "1:1002004893158:web:b503302ea949c7640b9a27",
+            "windows": "1:1002004893158:web:262de65c15e47e610b9a27"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
